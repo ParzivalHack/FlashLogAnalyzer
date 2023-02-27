@@ -85,6 +85,6 @@ def analyze_logs_gui():
     # Create a button for analyzing the log file
     analyze_button = tk.Button(window, text='Analyze', command=analyze_file)
     analyze_button.grid(row=1, column=1)
-
-    window.mainloop()
     
+    window.mainloop()
+    analyze_logs_gui()

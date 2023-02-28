@@ -87,4 +87,5 @@ def analyze_logs_gui():
     analyze_button.grid(row=1, column=1)
     
     window.mainloop()
-    analyze_logs_gui()
+    
+analyze_logs_gui()
